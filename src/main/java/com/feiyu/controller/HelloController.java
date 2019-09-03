@@ -24,6 +24,7 @@ public class HelloController {
     }
 
     // 登录接口
+    // @RequestParam 获取？后的参数
     @PostMapping(value = "/user/login")
     public String login(@RequestParam("username") String username,@RequestParam("password") String password){
         if(!StringUtils.isEmpty(username)&&"123456".equals(password)){

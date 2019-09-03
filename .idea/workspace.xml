@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ae39ec74-5ad6-488e-b5e0-11aacac108de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/feiyu/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feiyu/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feiyu/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feiyu/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/feiyu/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feiyu/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/department.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/department.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/feiyu/HelloJavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/feiyu/HelloJavaTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/feiyu/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feiyu/controller/HelloController.class" afterDir="false" />
     </list>
@@ -16,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -152,8 +154,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HelloJavaTests.contextLoads" />
-        <item itemvalue="JUnit.HelloJavaTests" />
         <item itemvalue="Application.HelloJava" />
+        <item itemvalue="JUnit.HelloJavaTests" />
         <item itemvalue="JUnit.HelloJavaTests.testHelloService" />
         <item itemvalue="Spring Boot.HelloJava" />
       </list>
@@ -171,7 +173,7 @@
       <workItem from="1567261195452" duration="4266000" />
       <workItem from="1567324982686" duration="7614000" />
       <workItem from="1567332623213" duration="1748000" />
-      <workItem from="1567338148071" duration="30875000" />
+      <workItem from="1567338148071" duration="36932000" />
     </task>
     <servers />
   </component>

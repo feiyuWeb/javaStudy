@@ -14,7 +14,6 @@ import java.sql.SQLException;
 /*
 * SpringBoot单元测试
 * */
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class HelloJavaTests {
