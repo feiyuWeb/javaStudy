@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae39ec74-5ad6-488e-b5e0-11aacac108de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/feiyu/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feiyu/bean/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/feiyu/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/feiyu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/feiyu/HelloJavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/feiyu/HelloJavaTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/feiyu/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/feiyu/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,9 +31,15 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboothelllo" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +78,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -104,11 +113,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloJavaTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaStudy" />
+      <option name="PACKAGE_NAME" value="com.feiyu" />
+      <option name="MAIN_CLASS_NAME" value="com.feiyu.HelloJavaTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloJavaTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaStudy" />
       <option name="PACKAGE_NAME" value="com.feiyu" />
       <option name="MAIN_CLASS_NAME" value="com.feiyu.HelloJavaTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloJavaTests.testHelloService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaStudy" />
+      <option name="PACKAGE_NAME" value="com.feiyu" />
+      <option name="MAIN_CLASS_NAME" value="com.feiyu.HelloJavaTests" />
+      <option name="METHOD_NAME" value="testHelloService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,7 +152,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HelloJavaTests.contextLoads" />
+        <item itemvalue="JUnit.HelloJavaTests" />
         <item itemvalue="Application.HelloJava" />
+        <item itemvalue="JUnit.HelloJavaTests.testHelloService" />
         <item itemvalue="Spring Boot.HelloJava" />
       </list>
     </recent_temporary>
@@ -141,7 +171,7 @@
       <workItem from="1567261195452" duration="4266000" />
       <workItem from="1567324982686" duration="7614000" />
       <workItem from="1567332623213" duration="1748000" />
-      <workItem from="1567338148071" duration="796000" />
+      <workItem from="1567338148071" duration="30875000" />
     </task>
     <servers />
   </component>

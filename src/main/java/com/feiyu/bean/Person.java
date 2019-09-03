@@ -2,6 +2,7 @@ package com.feiyu.bean;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -13,7 +14,9 @@ import java.util.Map;
 * @ConfigurationProperties 告诉SpringBoot将本类中的所有属性和配置文件相关的配置进行绑定
 * prefix = "person" 配置文件中哪个下面的所有属性进行映射
 * 只有这个组件是容器中的组件，才能用容器提供的@ConfigurationProperties功能
+* @PropertySource 用来导入Spring的配置文件，让配置文件里面的内容生效
 * */
+@PropertySource(value = {"classpath:person.properties"}) // person.properties 配置文件的名称
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {

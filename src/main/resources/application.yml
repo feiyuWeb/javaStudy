@@ -1,16 +1,29 @@
 server:
   port: 8081
+spring:
+  profiles:
+    active: prod # 激活prod配置
 
-#person:
-#  lastname: zhangsan
-#  age: 18
-#  boss: false
-#  birth: 2017/12/12
-#  maps: {k1: v1,k2: 12}
-#  lists:
-#    - lisi
-#    - wangwu
-#    - xiaoming
-#  dog:
-#    name: 小猴
-#    age: 2
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
+
+
+---
+
+spring:
+  datasource:
+    username: root
+    password: 709463253
+    url: jdbc:mysql://localhost:3306/node?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    schema:
+#      - classpath*: department.sql
