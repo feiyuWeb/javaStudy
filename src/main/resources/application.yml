@@ -1,29 +1,14 @@
+
+## 数据源配置
 server:
   port: 8081
-spring:
-  profiles:
-    active: prod # 激活prod配置
-
----
-server:
-  port: 8082
-spring:
-  profiles: dev
-
----
-server:
-  port: 8083
-spring:
-  profiles: prod
-
-
----
-## 数据源配置
 spring:
   datasource:
     username: root
     password: 709463253
     url: jdbc:mysql://localhost:3306/node?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
     driver-class-name: com.mysql.cj.jdbc.Driver
-#    schema:
-#      - classpath*: department.sql
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.feiyu.model
+
