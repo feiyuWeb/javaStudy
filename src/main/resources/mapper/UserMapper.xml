@@ -6,12 +6,29 @@
       WARNING - @mbg.generated
     -->
     <result column="id" jdbcType="INTEGER" property="id" />
-    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
-    <result column="phone" jdbcType="VARCHAR" property="phone" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
     <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
     <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
-    <result column="deleted_at" jdbcType="TIMESTAMP" property="deletedAt" />
   </resultMap>
+
+
+  <select id="findUser" parameterType="integer" resultType="com.feiyu.model.User">
+    select * from user where id=#{id}
+  </select>
+
+  <insert id="addUser" parameterType="com.feiyu.model.User">
+    insert into user (name,sex,address)
+    values (#{name},#{sex},#{address})
+  </insert>
+
+  <update id="updateUser">
+    update user
+    set name=#{name},sex=#{sex},address=#{address}
+  </update>
+
+  <delete id="deleteUser">
+    delete from user where id=#{id}
+  </delete>
 </mapper>

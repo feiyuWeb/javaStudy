@@ -13,21 +13,15 @@ public class User {
     @GeneratedValue(generator = "JDBC")
     private Integer id;
 
-    private String nickname;
+    private String name;
 
-    private String phone;
+    private String sex;
 
-    private String password;
-
-    private String openid;
+    private String address;
 
     @Column(name = "created_at")
     private Date createdAt;
 
     @Column(name = "updated_at")
     private Date updatedAt;
-
-    @Column(name = "deleted_at")
-    private Date deletedAt;
-
 }
